@@ -1,0 +1,825 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Open Sans", sans-serif;
+
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/*global css start*/
+
+.container{
+	width:1140px;
+	margin:0px auto;
+}
+
+
+
+/*global css end*/
+
+/* header css start */
+
+.header{
+	width:100%;
+}
+.inner-header{
+	display: flex;
+	justify-content:space-between;
+	padding:5px 0px;
+}
+
+.logo img{
+	width:150px;
+}
+
+.menue ul li{
+	list-style:none;
+	display: inline-block;
+	
+}
+
+.menue ul li a{
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color:#171f3c;
+	margin:20px 0px;
+	padding:0px 10px;
+
+}
+
+
+.btn{
+	display: flex;
+}
+
+.btn-info{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+	background-color: #066BD0;
+	color:#fff;
+	border:1px solid;
+	transition:1s;
+	margin:15px 1px 10px ;
+	padding:08px 20px;
+
+}
+.btn-info:hover{
+	background-color: #0AEE;
+	color:#fff;
+	border:1px solid;
+}
+
+/* header css end */
+
+/* banner css start */
+
+.banner{
+
+	width:100%;
+	padding:20px 0px;
+	background:url("../images/banner.jpg"); center no repeat;
+	background-size: cover;	
+}
+
+.inner-banner{
+	display: flex;
+	align-items:center;
+}
+
+.left-banner{
+	flex-basis:40%;
+
+}
+.left-banner h1{
+	font-size: 40PX;
+	font-weight: 700;
+	line-height: 1.2em;
+	text-transform: capitalize;
+	color:#066BD0;
+	padding:10px 0px;
+
+}
+.left-banner p{
+	font-size:18px;
+	font-weight: 300;
+	text-transform: capitalize;
+	color:#066BD0;
+
+}
+
+.inner-banner a{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+	background-color: #066BD0;
+	color:#fff;
+	border-radius:10px;
+	border:1px solid;
+	transition:1s;
+	margin:15px 0px ;
+	padding:13px 30px;
+
+}
+
+.btn-infob:hover{
+	background-color: #0AEE;
+	color:#fff;
+	border:1px solid
+
+}
+
+.right-banner{
+	flex-basis:60%;
+}
+
+.right-banner img{
+	width:100%;
+	
+}
+/* banner css end */
+
+/* feature css start */
+
+.feature{
+	width:100%;
+	
+}
+.inner-feature{
+	display: flex;
+}
+.graduates{
+	display: flex;
+	flex-basis:30%;
+	background: #F9799A;
+	border-radius: 10px;
+	margin:0px 10px;
+	padding: 15px 20px;
+}
+
+.earn{
+	display: flex;
+	flex-basis:30%;
+	border-radius: 10px;
+	background:#61C4D8;
+	margin:0px 10px;
+	padding: 15px 20px;
+
+}
+
+.members{
+	display: flex;
+	flex-basis:30%;
+	border-radius: 10px;
+	background: #0E72CC;
+	margin:0px 10px;
+	padding:15px 20px;
+
+
+}
+
+.icon{
+	flex-basis:15%;
+	padding:0px 5px;
+	
+
+}
+
+.icon i{
+	font-size: 40px;
+	color:#fff;
+}
+
+
+
+.content{
+	flex-basis:85%;
+
+}
+
+.content h4{
+	font-size:20px;
+	padding:10px 0px;
+	color:;
+
+}
+.content p{
+	font-size:16px;
+	color:;
+
+}
+/* feature css end */
+
+/*project css start*/
+
+.project{
+	width: 100%;
+	padding:80px 0px;
+}
+.inner-project{
+	display: flex;
+
+
+}
+.left-inner-project{
+	flex-basis: 40%;
+
+
+}
+
+.left-inner-project h4{
+	flex-basis: 40%;
+	font-size:25px;
+	font-weight: 300;
+	color:#07324F;
+
+}
+
+.left-inner-project h1{
+	flex-basis: 40%;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 1.2em;
+	text-transform: capitalize;
+	color:#07324F;
+
+}
+.left-inner-project p{
+	flex-basis: 40%;
+	font-size:16px;
+	color:#07324F;
+
+
+}
+.left-inner-project a{
+	display:inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;
+	border-radius:10px;
+	color:#fff;
+	padding:13px 30px;
+
+}
+.right-inner-project{
+	flex-basis:60%;
+}
+.right-inner-project img{
+	width:100%;
+	
+}
+/*project css end*/
+
+/*lifetime css start*/
+
+.lifetime{
+	width:100%;
+	background-color:#eee ;
+}
+
+.inner-lifetime{
+	display: flex;
+	padding:80px 0px;
+
+}
+.left-inner-lifetime{
+	flex-basis: 60%;
+
+}
+.left-inner-lifetime img{
+	width:100%;
+
+}
+.right-inner-lifetime{
+	flex-basis: 40%;
+	margin:20px 30px;
+}
+
+.right-inner-lifetime h4{
+	font-size:25px;
+	font-weight: 300;
+	color:#07324F;
+
+}
+.right-inner-lifetime h1{
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 1.2em;
+	text-transform:capitalize;
+	color:#07324F;
+
+}
+.right-inner-lifetime p{
+	font-size:16px;
+	color:#07324F;
+
+}
+.right-inner-lifetime a{
+	display:inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color:#fff;
+	border-radius:10px;
+	padding:13px 30px;
+
+}
+
+/*lifetime css end*/
+
+
+
+/*learn css start*/
+
+.learn{
+	width:100%;
+	padding:80px 0px;
+}
+
+.inner-learn{
+	display: flex;
+	
+
+}
+.left-inner-learn{
+	flex-basis: 40%;
+}
+.left-inner-learn h4{
+	font-size:22px;
+	font-weight: 300;
+	text-transform: capitalize;
+	color:#07324F;
+
+}
+.left-inner-learn h1{
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color:#07324F;
+
+}
+.left-inner-learn p{
+	font-size:16px;
+	font-weight: 350;
+	color:#07324F;
+
+}
+.left-inner-learn a{
+	display:inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color:#fff;
+	border-radius:10px;
+	padding:13px 30px;
+
+}
+.right-inner-learn{
+	flex-basis: 60%;
+
+}
+.right-inner-learn img{
+	width:100%;
+
+}
+/*learn css end*/
+
+/*course css start*/
+
+.course{
+	width:100%;
+	background: url("../images/background.jpg"); center no-repeat;
+	background-size: cover;
+	padding:70px 0px;
+}
+
+.inner-course{
+	width:100%;
+
+}
+.course-title{
+	text-align: center;
+	text-transform: capitalize;
+	color:#fff;
+}
+.course-title h1{
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 1.2em;
+	text-transform: capitalize;
+	color:;
+
+}
+.course-details{
+	display: flex;
+	padding:80px 0px;
+}
+.digital-marketing{
+	flex-basis: 25%;
+	background-color: #fff;
+	border-radius: 10px;
+	margin:0px 15px;
+
+
+}
+
+.digital-marketing-one{
+	background:url("../images/digital-marketing.jpg"); center no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	padding:50px 0px;
+	margin: 15px 15px 15px;
+
+}
+.digital-marketing-one h3{
+	font-size:25px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color:;
+
+}
+.digital-marketing-one span{
+	font-size:20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color:;
+
+}
+.digital-marketing-two{
+	padding: auto;
+	margin: 15px 15px 15px;
+
+}
+
+.digital-marketing-two{
+	width: 20%;
+
+}
+.digital-marketing-two h4{
+	font-size:15px;
+	font-weight: 700;
+	color:;
+
+}
+.digital-marketing-two p{
+	font-size:16px;
+	color:;
+
+}
+
+.full-stack{
+	flex-basis: 25%;
+	background-color: #fff;
+	border-radius: 10px;
+	margin:0px 15px;
+}
+.full-stack-one{
+	background: url("../images/full-stack.jpg");center no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	margin: 15px 15px 15px;
+	padding:50px 0px;
+
+}
+.full-stack-one h3{
+	font-size:25px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color:;
+
+}
+.full-stack-one span{
+	font-size:20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color:;
+
+}
+
+.full-stack-two{
+	margin: 15px 15px 15px;
+
+}
+.full-stack-two h4{
+	font-size:15px;
+	font-weight: 700;
+	color:;
+
+}
+.full-stack-two p{
+	font-size:16px;
+	color:;
+
+}
+
+
+.graphic{
+	flex-basis: 25%;
+	background-color: #fff;
+	border-radius: 10px;
+	margin:0px 15px;
+
+}
+
+.graphic-one{
+	background: url("../images/graphic.jpg");center no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	margin: 15px 15px 15px;
+	padding:50px 0px;
+
+
+
+}
+.graphic-one h3{
+	font-size:25px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color:;
+
+}
+.graphic-one span{
+	font-size:20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color:;
+
+}
+
+.graphic-two{
+	margin: 15px 15px 15px;
+
+}
+.graphic-two h4{
+	font-size:15px;
+	font-weight: 700;
+	color:;
+
+}
+.graphic-two p{
+	font-size:16px;
+	color:;
+
+}
+
+.shopify{
+	flex-basis: 25%;
+	background-color: #fff;
+	border-radius: 10px;
+	margin:0px 15px;
+}
+.shopify-one{
+	background: url("../images/shopify.jpg");center no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	margin: 15px 15px 15px;
+	padding:50px 0px;
+
+
+}
+.shopify-one h3{
+	font-size:25px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color:;
+
+}
+.shopify-one span{
+	font-size:20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color:;
+
+}
+
+
+.shopify-two{
+	margin: 15px 15px 15px;
+
+}
+.shopify-two h4{
+	font-size:15px;
+	font-weight: 700;
+	color:;
+
+}
+.shopify-two p{
+	font-size:16px;
+	color:;
+
+}
+/*course css end*/
+
+/*laptop css start*/
+
+.laptop{
+
+	width:100%;
+	padding:80px 0px;
+	
+}
+.lab{
+	width:100%;
+	
+}
+.lab img{
+	width:100%;
+}
+
+/*laptop css end*/
+
+
+
+/*address css start*/
+
+.address{
+	width:100%;
+	padding:50px 0px;
+}
+
+.inner-address{
+	width:100%;
+	background-color: #0E72CC;
+	border-radius: 10px;
+	padding: 120px 0px;
+}
+.inner-address h2{
+	font-size:25px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: capitalize;
+	color:#fff;
+	padding:5px 0px;
+
+}
+.inner-address h3{
+	font-size:15px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	color:#fff;
+
+}
+/*address css end*/
+
+/*footer css start*/
+
+.footer{
+	width:100%;
+	padding:40px 0px;
+}
+.inner-footer{
+	display: flex;
+	
+}
+
+.shikbe{
+	flex-basis: 25%;
+	margin:0px 10px;
+
+}
+.shikbe h4{
+	font-size:15px;
+	font-weight: 700;
+	color:#0E72CC;
+
+}
+.shikbe p{
+	font-size:16px;
+	font-weight:200;
+	color:#91a3bb;
+
+}
+.connect{
+	flex-basis: 25%;
+	margin:0px 10px;
+
+
+}
+.connect h4{
+	font-size:15px;
+	font-weight: 700;
+	color:#0E72CC;
+
+}
+
+.connect p{
+	font-size:16px;
+	font-weight: 200;
+	color:#91a3bb;
+
+
+}
+
+.useful{
+	flex-basis: 25%;
+	margin:0px 10px;
+
+}
+.useful h4{
+	font-size:15px;
+	font-weight: 700;
+	color:#0E72CC;
+
+}
+.useful ul{
+	display: block;
+
+}
+.useful ul li{
+	display: block;
+	list-style:none ;
+
+
+}
+.useful ul li a{
+	display: block;
+	font-size: 16px;
+	font-weight: 200;
+	text-transform: capitalize;
+	color:#91a3bb;
+	
+
+
+}
+
+.social{
+	flex-basis: 25%;
+	margin:0px 10px;
+
+}
+.social h4{
+	font-size:15px;
+	font-weight: 700;
+	color:#0E72CC;
+
+}
+.social ul{
+	display: block;
+
+}
+.social ul li{
+	display: block;
+	list-style:none ;
+
+}
+.social ul li a{
+	display: block;
+	font-size: 16px;
+	font-weight: 200;
+	text-transform: capitalize;
+	color:#91a3bb;
+	
+}
+
+
+.footer-img{
+	width:100%;
+	padding:30px 0px;
+}
+.footer-img img{
+	width:100%;
+	text-align: center;
+
+}
+.copy{
+	text-align: center;
+	margin: 15px 0px 0px 0px;
+}
+.copy p{
+	font-size:16px;
+	font-weight: 200;
+	color:#0E72CC;
+
+}
+
+
+/*footer css end*/
+
+
+
+
+
+
+
+
